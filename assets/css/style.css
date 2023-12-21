@@ -1,0 +1,355 @@
+/* common */
+
+.heading-tag {
+    font-family: "Montserrat", Sans-serif !important;
+}
+
+.paragraph-font {
+    font-family: "Sora", Sans-serif !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 770px) {
+    .card-img {
+        width: 120px !important;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    .card-img {
+        width: 45% !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-img {
+        width: 35% !important;
+    }
+}
+
+
+.allright {
+    font-size: small;
+    color: #7a7a7a !important;
+}
+
+
+html {
+    font-size: 15px;
+    scroll-behavior: smooth;
+    background-color: #42523f;
+}
+
+.input-size {
+    padding: 10px !important;
+}
+
+.common-text-size {
+
+    font-size: 17px !important;
+    font-weight: 200 !important;
+    color: #7a7a7a !important;
+}
+
+.access-now-button {
+    color: #F4D294 !important;
+    /* padding-top: 14px !important; */
+}
+
+.submit-btn {
+    color: #F4D294 !important;
+    padding: 10px 20px 10px 20px !important;
+
+}
+
+.buttons-btn {
+
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    padding: 10px 20px 10px 20px !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .common-text-size {
+
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        color: #7a7a7a !important;
+    }
+
+    .buttons-btn {
+
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        padding: 10px 20px 10px 20px !important;
+    }
+}
+
+/* navbar start */
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+
+    80% {
+        transform: scaleY(1.1)
+    }
+
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+@keyframes growUp {
+    0% {
+        transform: scaleY(1)
+    }
+
+    80% {
+        transform: scaleY(1.1)
+    }
+
+    100% {
+        transform: scaleY(0)
+    }
+}
+
+.closeNavbar {
+    display: none;
+}
+
+.openNav {
+    display: block !important;
+    animation: growDown 400ms ease-in-out forwards;
+    transform-origin: top center
+}
+
+.closeNav {
+    animation: growUp 600ms ease-in-out forwards;
+    transform-origin: center top;
+    /* display: none; */
+
+}
+
+.show {
+    display: none !important;
+
+}
+
+.mobile-navbar {
+    background: #eaeaea !important;
+}
+
+.menu-icon {
+    background: #eaeaea !important;
+    padding: 3px !important;
+}
+
+.nav-bookademo {
+    background-color: #F4D294 !important;
+}
+
+.nav-hover {
+    border-bottom: 3px solid white;
+}
+
+.nav-hover:hover {
+    border-bottom: 3px solid #171952;
+}
+
+/* navbar end */
+
+/* home tab start */
+.Welcome-to-Pichain-text {
+    color: #E2BB74;
+
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.Ai-powered-text {
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
+.hometab-learnmore-button {
+    background-color: #000000 !important;
+    color: white !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .Ai-powered-text {
+        font-weight: 700;
+        font-size: x-large;
+    }
+
+    .Welcome-to-Pichain-text {
+
+        color: #E2BB74;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+.aipoweredfadecontentbottom {
+    animation: aipoweredfadeInBottom 1s ease-in-out;
+}
+
+@keyframes aipoweredfadeInBottom {
+    from {
+        opacity: 0;
+        transform: translatey(150px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.automatefadecontentbottom {
+    animation: automatefadeInBottom 1s ease-in-out;
+}
+
+@keyframes automatefadeInBottom {
+    from {
+        opacity: 0;
+        transform: translatey(80px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.Easy-to-use-fadecontentbottom {
+    animation: easytouseautomatefadeInBottom 1s ease-in-out;
+}
+
+@keyframes easytouseautomatefadeInBottom {
+    from {
+        opacity: 0;
+        transform: translatey(100px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.ticksymbol {
+    font-size: medium !important;
+    font-weight: 700 !important;
+    color: #E2BB74 !important;
+}
+
+/* home tab end */
+
+/* trested start*/
+.trusted-bg-color {
+    background-color: #eff5f8;
+}
+
+.bookademo-btn {
+    color: #F4D294 !important;
+}
+
+
+
+/* trested end */
+
+/* solution tab start */
+.card-bg-color {
+    background-color: #f4f7ff !important;
+    border: none !important;
+}
+
+
+
+/* solution tab end */
+
+/* percentage tab*/
+.number-color {
+    color: #E2BB74 !important;
+}
+
+.number-text-color {
+    color: #54595f !important;
+    font-weight: 600 !important;
+}
+
+/* percentage tab */
+
+/* why choose pichain */
+.choose-text {
+
+    font-size: 15px !important;
+    font-weight: 300 !important;
+}
+
+
+/* why choose pichain */
+
+
+/* our pricing tab */
+.OurPricing-card-bg-color {
+    background-color: #3A6192 !important;
+}
+
+.great-Value-Text {
+    color: #E2BB74 !important;
+}
+
+/* our pricing tab */
+
+/* experience tab */
+
+.experience-bg-color {
+    background-color: rgb(22, 57, 100);
+}
+
+/* experience tab */
+
+/* ourprocess */
+@media screen and (min-width: 100px) and (max-width: 770px) {
+    .ourprocess-card-image  {
+        width: 80px !important;
+    }
+    .track-development{
+        width: 85px !important;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    .ourprocess-card-image {
+        width:35% !important;
+    }
+    .track-development{
+        width: 38% !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ourprocess-card-image {
+        width: 30% !important;
+    }
+    .track-development{
+        width: 32% !important;
+    }
+}
+
+
+
+/* footer */
+.footer-bg-color {
+    background-color: #04254D;
+    ;
+}
+
+.footer-sub-heading-text {
+    color: #F3D193 !important;
+
+
+
+}
+
+/* footer  */

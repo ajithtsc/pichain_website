@@ -1,0 +1,229 @@
+/* navbar */
+
+.nav-hover {
+    color: rgba(0, 0, 0, 0.26) !important;
+    font-family: DM Sans !important;
+    font-size: 22px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    text-transform: lowercase !important;
+}
+
+.nav-hover:hover {
+    color: #000 !important;
+    font-family: DM Sans !important;
+    font-size: 22px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    text-transform: lowercase !important;
+    text-decoration: underline !important;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+
+    80% {
+        transform: scaleY(1.1)
+    }
+
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+@keyframes growUp {
+    0% {
+        transform: scaleY(1)
+    }
+
+    80% {
+        transform: scaleY(1.1)
+    }
+
+    100% {
+        transform: scaleY(0)
+    }
+}
+
+.closeNavbar {
+    display: none;
+}
+
+.openNav {
+    display: block !important;
+    animation: growDown 400ms ease-in-out forwards;
+    transform-origin: top center
+}
+
+.closeNav {
+    animation: growUp 600ms ease-in-out forwards;
+    transform-origin: center top;
+    /* display: none; */
+
+}
+
+.show {
+    display: none !important;
+
+}
+
+.mobile-navbar {
+    background: #eaeaea !important;
+}
+
+/* footer */
+.footer-bg-color {
+    background-color: #04254D;
+    ;
+}
+
+.footer-sub-heading-text {
+    color: #F3D193 !important;
+
+
+
+}
+
+.allright {
+    font-size: small;
+    color: #7a7a7a !important;
+}
+
+
+/* home tab*/
+.home-tab-position {
+    top: 15%;
+}
+
+.pichain-text {
+    background: linear-gradient(180deg, #F4D294 0%, #C1A370 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-tab-heading {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 70.518px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95.291px;
+    letter-spacing: -3.421px;
+}
+
+.home-tab-paragraph {
+    color: rgba(0, 0, 0, 0.61);
+    font-family: DM Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.home-tab-demo-btn {
+    background: #F4D294 !important;
+    color: #000 !important;
+    font-family: DM Sans;
+    font-size: 19px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+}
+
+.home-tab-more-btn {
+    font-family: DM Sans;
+    font-size: 19px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+}
+
+/* why pichain */
+.paragraph-one {
+    color: rgba(0, 0, 0, 0.51);
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+/* contact us */
+.contactus-text {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55.579px;
+    letter-spacing: -1.48px;
+}
+
+.contactus-bg {
+    background-color: #000;
+}
+
+.contactus-button {
+    font-family: DM Sans;
+    font-size: 26.828px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 48.596px !important;
+    letter-spacing: -1.153px !important;
+    border-radius: 50px !important;
+    background: linear-gradient(182deg, rgba(255, 255, 255, 0.28) -71.36%, rgba(243, 255, 255, 0.00) 220.35%) !important;
+
+}
+
+.subheading {
+
+    font-family: 'DM Sans';
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: -2.48px;
+}
+
+/* simple step */
+
+.simple-step-headings {
+    font-family: DM Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    background: linear-gradient(180deg, #967C4F 0%, #E3C286 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.simple-step-para {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.44px;
+}
+
+/* faqs tab */
+
+.faqs-question {
+    font-family: 'DM Sans';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faqs-question-border {
+    border-bottom: 2px solid rgba(244, 210, 148, 0.54);
+}
